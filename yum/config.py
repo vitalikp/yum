@@ -49,7 +49,7 @@ __pkgs_gpgcheck_default__ = False
 __repo_gpgcheck_default__ = False
 __main_multilib_policy_default__ = 'all'
 __main_failovermethod_default__ = 'roundrobin'
-__main_installonly_limit_default__ = 0
+__main_installonly_limit_default__ = 3
 __group_command_default__ = 'compat'
 __exactarchlist_default__ = ['kernel', 'kernel-smp',
                              'kernel-hugemem', 'kernel-enterprise',
