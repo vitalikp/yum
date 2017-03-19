@@ -4431,19 +4431,3 @@ msgstr "Пошкоджений заголовок %s"
 #, python-format
 msgid "Error opening rpm %s - error %s"
 msgstr "Помилка під час відкриття rpm %s — помилка %s"
-
-#~ msgid "Warning: Environment %s does not exist."
-#~ msgstr "Попередження: середовища з назвою %s не існує."
-
-#~ msgid "No saved transaction file specified."
-#~ msgstr "Не вказано файла збережених записів операцій"
-
-#~ msgid ""
-#~ "There are unfinished transactions remaining. You might consider running "
-#~ "yum-complete-transaction first to finish them."
-#~ msgstr ""
-#~ "Залишилися незавершені операції. Для їх завершення вам слід спочатку "
-#~ "запустити yum-complete-transaction."
-
-#~ msgid "Please report this error at %s"
-#~ msgstr "Повідомте про цю помилку за адресою %s"
