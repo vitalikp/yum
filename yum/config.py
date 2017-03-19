@@ -736,7 +736,7 @@ class StartupConf(BaseConfig):
     distroverpkg = ListOption(['system-release(releasever)', 'redhat-release'])
     installroot = Option('/')
     config_file_path = Option('/etc/yum/yum.conf')
-    plugins = BoolOption(False)
+    plugins = BoolOption(True)
     pluginpath = ListOption(['/usr/share/yum-plugins', '/usr/lib/yum-plugins'])
     pluginconfpath = ListOption(['/etc/yum/pluginconf.d'])
     gaftonmode = BoolOption(False)
