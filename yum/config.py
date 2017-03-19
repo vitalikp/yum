@@ -804,7 +804,7 @@ class YumConf(StartupConf):
     overwrite_groups = BoolOption(False)
     keepalive = BoolOption(True)
     # FIXME: rename gpgcheck to pkgs_gpgcheck
-    gpgcheck = BoolOption(__pkgs_gpgcheck_default__)
+    gpgcheck = BoolOption(True)
     repo_gpgcheck = BoolOption(__repo_gpgcheck_default__)
     localpkg_gpgcheck = BoolOption(__pkgs_gpgcheck_default__)
     obsoletes = BoolOption(True)
